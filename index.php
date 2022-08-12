@@ -8,7 +8,7 @@ include('header.php');
         <div class="container py-5">
             <h1 class="display-5 fw-bold">Blaze Bank</h1>
             <p class="col-md-8 fs-4">Seu banco mais flexivel do que nunca!</p>
-            <a class="btn btn-primary btn-lg" href="criar_conta.php">Crie sua conta</a>
+            <a class="btn btn-primary btn-lg" href="criarConta.php">Crie sua conta</a>
         </div>
     </div>
 

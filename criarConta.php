@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -85,27 +86,27 @@
         <link href="signin.css" rel="stylesheet">
     </head>
     <body class="text-center">
-        
+    
     <main class="form-signin w-100 m-auto">
-    <form>
+    <form action="validarConta.php" method="post">
         <img class="mb-4" src="blaze.png" alt="" width="150" height="60">
         <h1 class="h3 mb-3 fw-normal">Bem Vindo</h1>
 
         <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Email </label>
+            <input type="nome" class="form-control" id="floatingInput1" placeholder="nome" name="nome">
+            <label for="floatingInput1">Nome</label>
         </div>
         <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Senha</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+            <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="senha">
+            <label for="floatingPassword">Senha</label>
         </div>
 
-        <div class="checkbox mb-3">
-        <label>
-            <input type="checkbox" value="remember-me"> lembrar-se
-        </label>
-        </div>
-        <button class="w-100 btn btn-lg btn-danger" type="submit">Entrar</button>
+    
+        <button class="w-100 btn btn-lg btn-danger" type="submit">Registrar</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
     </form>
     </main>

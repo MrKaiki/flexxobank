@@ -1,3 +1,18 @@
 body{
     background-color: #f8f9fa;
 }
+
+
+.btn{
+    background: #DA2C2C;
+    border-radius: 7px;
+    font-size: 16;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}

@@ -19,15 +19,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link " aria-current="page" href="index.php">Inicial</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="institucional.php">Institucional</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="criar_conta.php">Criar Conta</a>
-                    </li>
                 </ul>
+                <a href="entrar.php" class="btn btn-primary btn-lg" style="--bs-btn-padding-y: .55rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .90rem;">Acessar</a>
             </div>
         </div>
     </nav>
